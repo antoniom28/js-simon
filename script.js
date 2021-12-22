@@ -62,6 +62,7 @@ setTimeout(function () {
                     else
                         document.getElementById('errore').innerHTML = `CONGRATULAZIONE, HAI INDOVINATO ${puntiUtente} NUMERI !!`;
                     fineGioco = true;
+                    document.getElementById('fine').innerHTML = ` i numeri erano : ${numero}`;
                 }
                 else
                     document.getElementById('errore').innerHTML = `ATTENZIONE, i numeri sono ${maxNumeri} !!!`;
