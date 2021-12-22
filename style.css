@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#contenitore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#numeri {
+    border: 5px solid #9eda28;
+    background-color: skyblue;
+    font-weight: bold;
+    font-size: 40px;
+    width: 300px;
+    text-align: center;
+}
+
+#time{
+    font-family: cursive;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+input#indovinaNumeri {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+}
+
+body *{
+    margin: 5px 0;
+}
+
+#riprova{
+    text-decoration: none;
+    background-color: rgb(182, 182, 182);
+    color: white;
+    padding: 5px;
+}
